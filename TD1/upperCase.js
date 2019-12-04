@@ -1,9 +1,11 @@
 var name = ["pierre","paul","jack"]
 
-function upperCaseFirstLetter(array){
+function upperCase(array){
     for (i=0; i < array.length; i++){
         console.log(array[i].toUpperCase())
     }
 }
 
-upperCaseFirstLetter(name)
+upperCase(name)
+
+console.log('->', ["steph", "albert", "jeanne"].map( (val) => { val.toUpperCase() } ))

@@ -1,0 +1,1 @@
+console.log(Math.pow(57055, 3) + Math.pow(339590, 3) == Math.pow(340126, 3))
